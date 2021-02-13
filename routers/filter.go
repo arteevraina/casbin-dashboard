@@ -7,6 +7,9 @@ import (
 	"github.com/casbin/casbin-dashboard/util"
 )
 
+// Hello world
+// added a comment
+
 func TransparentStatic(ctx *context.Context) {
 	urlPath := ctx.Request.URL.Path
 	if strings.HasPrefix(urlPath, "/api/") {
