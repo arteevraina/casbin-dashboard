@@ -7,8 +7,7 @@ import (
 	"github.com/casbin/casbin-dashboard/util"
 )
 
-// Hello world
-// added a comment
+// added a cmnt
 
 func TransparentStatic(ctx *context.Context) {
 	urlPath := ctx.Request.URL.Path
